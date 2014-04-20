@@ -1,0 +1,60 @@
+#sm-icon {
+	li {
+		list-style: none;
+	}
+	a {
+		width: 42px;
+		height: 42px;
+		display: inline-block;
+		background-image: url('../img/main_sprite.png');
+		transition: background-position-y 0.5s;
+
+	}
+	
+	#icon-fb{
+			background-position: 3px -880px;
+			&:hover {
+				background-color: desaturate(#ccc, 20%);
+				background-position: 3px -880-42px;
+
+			}
+	}
+
+	#icon-twitter {
+		background-position: -39px -880px;
+					&:hover {
+				background-color: desaturate(#ccc, 20%);
+				background-position: -39px -880-42px;
+
+			}
+	
+	}
+	#icon-google {
+		background-position: -81px -880px;
+					&:hover {
+				background-color: desaturate(#ccc, 20%);
+				background-position: -81px -880-42px;
+
+			}
+
+	}
+	#icon-youtube {
+		background-position: -123px -880px;
+					&:hover {
+				background-color: desaturate(#ccc, 20%);
+				background-position: -123px -880-42px;
+
+			}
+	}
+}
+
+/*
+	http://www.mbusa.com/mercedes/compressed/images/responsive/sprites/main_sprite_2x.png
+	<ul id="sm-icon">
+		<h3>Sprite</h3>
+		<li><a id="icon-fb" href=""></a></li>
+		<li><a id="icon-twitter" href=""></a></li>
+		<li><a id="icon-google" href=""></a></li>
+		<li><a id="icon-youtube" href=""></a></li>
+	</ul>
+*/
